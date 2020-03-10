@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./style.css";
 
-class Contact extends Component {
-    render() {
-        return (
-            <p>Testing Testing Testing</p>
-        )
-    }
+function Contact() {
+    return (
+        <p>Testing Testing Testing</p>
+    )
 }
 
 export default Contact;
