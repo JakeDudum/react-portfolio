@@ -7,8 +7,8 @@ import "./style.css";
 
 function Projects() {
     return (
-        <div>
-            <div>
+        <div className="center">
+            <div className="project">
                 <img className="image" src={Jumble} alt="Jumble Site" />
                 <div>
                     <h5>Jumble</h5>
@@ -22,7 +22,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div>
+            <div className="project">
                 <img className="image" src={Bark} alt="Bark Site" />
                 <div>
                     <h5>Bark</h5>
@@ -35,7 +35,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div>
+            <div className="project">
                 <img className="image" src={Where2P} alt="Where2P Site" />
                 <div>
                     <h5>Where2P</h5>
@@ -49,7 +49,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div>
+            <div className="project">
                 <img className="image" src={RPS} alt="RPS-multiplayer Site" />
                 <div>
                     <h5>RPS-Multiplayer</h5>
