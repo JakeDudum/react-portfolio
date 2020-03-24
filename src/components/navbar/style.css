@@ -7,7 +7,7 @@
     height: 50px;
 }
 
-h1 {
+.name {
     float: left;
     font-size: 48px;
 }

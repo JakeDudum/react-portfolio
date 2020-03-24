@@ -40,7 +40,7 @@ class Navbar extends Component {
         return (
             <div>
                 <nav className="navbar">
-                    <h1>Jake Dudum</h1>
+                    <h1 className="name">Jake Dudum</h1>
                     <div className="links">
                         <div onClick={(e) => this.setComponent("AboutMe", e)} className="link">About Me</div>
                         <div onClick={(e) => this.setComponent("Projects", e)} className="link">Projects</div>
