@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
+import Hello from '../../images/helloWorld.jpg';
 import "./style.css";
 
 class AboutMe extends Component {
     render() {
         return (
-            <p>Aute exercitation enim commodo anim magna nostrud mollit irure. Dolore nisi in ullamco officia et eu voluptate enim aliqua amet ut enim reprehenderit. Cillum ut proident eu laborum aliqua qui. Fugiat adipisicing veniam est minim aliquip irure excepteur anim dolore do excepteur minim. Minim consectetur aliqua id cillum labore excepteur ea aute irure. Laboris ex enim et ullamco officia veniam reprehenderit ullamco elit dolor. Aliquip do nisi irure sint dolor dolore cillum fugiat mollit ipsum cupidatat pariatur officia.
-
-Eiusmod ad nisi enim sit. Veniam dolor magna eu irure voluptate dolore. Anim veniam dolor labore ad aliquip quis est aliquip. Laboris enim irure quis dolor. Occaecat in sunt veniam sint commodo veniam Lorem tempor sunt aliqua. Deserunt anim ullamco do amet nisi occaecat reprehenderit eiusmod aute aute.
-
-Laboris reprehenderit laboris amet laborum magna ipsum excepteur proident velit. Fugiat labore elit commodo et exercitation occaecat. Nostrud nostrud mollit eiusmod eiusmod reprehenderit nostrud voluptate nostrud adipisicing. Adipisicing esse non aliquip voluptate fugiat anim magna magna mollit incididunt fugiat. Cupidatat nulla nostrud Lorem ut cillum nisi enim adipisicing. Ullamco ex ullamco amet enim eu elit dolor anim cillum. Mollit laborum laborum irure exercitation duis incididunt anim id aute.</p>
+            <div>
+                <img className="hello" src={Hello} alt="Hello World." />
+                <p className="bio">Welcome to my website! I am a full stack web
+                developer proficient in both MERN and SERN full stacks. I am also proficient in HTML, CSS, and
+                Javascript as demonstrated by my projects in the portfolio section. I love learning new technologies,
+                new node packages, and new languages in order to better my current and future projects. I am a problem
+                solver through and through it's why I love coding so much, I get to solve problems and in the process
+                make even more problems to solve.</p>
+            </div>
         )
     }
 }

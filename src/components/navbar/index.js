@@ -29,6 +29,9 @@ class Navbar extends Component {
             case 'Contact':
                 component = <Contact />;
                 break;
+            default:
+                component = <AboutMe />;
+                break;
         }
         return component;
     }

@@ -17,8 +17,8 @@ function Projects() {
                     form that will ask for a project name, due date, budget for various departments, and
                     an initial task with due date.
                     </p>
-                    <a href="https://github.com/JakeDudum/jumble-dash" target="_blank">Github Repo</a>
-                    <a href="https://jumble-dash.herokuapp.com/" target="_blank">Deployed Site</a>
+                    <a href="https://github.com/JakeDudum/jumble-dash" target="_blank" rel="noopener noreferrer">Github Repo</a>
+                    <a href="https://jumble-dash.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Site</a>
                 </div>
             </div>
 
@@ -30,8 +30,8 @@ function Projects() {
                     whatever they want to those in their city. The site features a basic user profile to
                     view old posts and a few simple categories along with a like counter.
                     </p>
-                    <a href="https://github.com/JakeDudum/Bark" target="_blank">Github Repo</a>
-                    <a href="https://tranquil-bastion-82369.herokuapp.com/" target="_blank">Deployed Site</a>
+                    <a href="https://github.com/JakeDudum/Bark" target="_blank" rel="noopener noreferrer">Github Repo</a>
+                    <a href="https://tranquil-bastion-82369.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Site</a>
                 </div>
             </div>
 
@@ -44,8 +44,8 @@ function Projects() {
                     Google Places API in order to help the user find the closest
                     bathroom available and features user reviews as well.
                     </p>
-                    <a href="https://github.com/JakeDudum/Where2p" target="_blank">Github Repo</a>
-                    <a href="https://jakedudum.github.io/Where2p/" target="_blank">Deployed Site</a>
+                    <a href="https://github.com/JakeDudum/Where2p" target="_blank" rel="noopener noreferrer">Github Repo</a>
+                    <a href="https://jakedudum.github.io/Where2p/" target="_blank" rel="noopener noreferrer">Deployed Site</a>
                 </div>
             </div>
 
@@ -57,8 +57,8 @@ function Projects() {
                     players can play at any given time and only those two players can use the chat
                     functionality of the site. Player 1 always goes first followed by Player 2.
                     </p>
-                    <a href="https://github.com/JakeDudum/RPS-Multiplayer" target="_blank">Github Repo</a>
-                    <a href="https://jakedudum.github.io/RPS-Multiplayer/" target="_blank">Deployed Site</a>
+                    <a href="https://github.com/JakeDudum/RPS-Multiplayer" target="_blank" rel="noopener noreferrer">Github Repo</a>
+                    <a href="https://jakedudum.github.io/RPS-Multiplayer/" target="_blank" rel="noopener noreferrer">Deployed Site</a>
                 </div>
             </div>
         </div>
