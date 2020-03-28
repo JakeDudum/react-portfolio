@@ -1,4 +1,4 @@
-.landing {
+#landing {
     background-image: url("../../images/helloWorld.jpg");
     background-size: 100% 900px;
     width: 100%;
@@ -6,7 +6,19 @@
     margin-top: -50px;
 }
 
-.bio {
+#selfie {
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    top: 225px;
+    left: 50%;
+    border-radius: 500px;
+    transform: translate(-50%, -50%);
+}
+
+#bio {
     position: absolute;
     top: 450px;
     color: white;
@@ -24,7 +36,7 @@
     font-size: 36px;
 }
 
-.techSkills {
+#techSkills {
     width: 80%;
     margin: 0 auto;
 }
@@ -32,9 +44,12 @@
 .skill {
     display: inline-block;
     width: 20%;
+    text-align: center;
 }
 
 .logo {
-    width: 75px;
-    height: 75px;
+    display: block;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Contact from '../Contact';
-import Projects from '../Projects';
-import AboutMe from '../AboutMe';
+import Contact from '../contact';
+import Projects from '../projects';
+import AboutMe from '../aboutMe';
 import "./style.css";
 
 class Navbar extends Component {
