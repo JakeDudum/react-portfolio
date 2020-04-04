@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import $ from 'jquery';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -10,3 +11,25 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+// Scroll function courtesy of Scott Dowding; http://stackoverflow.com/questions/487073/check-if-element-is-visible-after-scrolling
+$(document).ready(function () {
+    function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return elemBottom <= docViewBottom && elemTop >= docViewTop;
+    }
+    // If element is scrolled into view, fade it in
+    $(window).scroll(function () {
+        $(".scroll-animations .animated").each(function () {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass("fadeInLeft");
+                $(".fadeInLeft").css("opacity", 1);
+            }
+        });
+    });
+});

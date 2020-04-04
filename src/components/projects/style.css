@@ -1,6 +1,9 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .image {
     width: 100%;
     height: 200px;
+    border: 1px solid black;
 }
 
 .center {
@@ -14,15 +17,19 @@
     vertical-align: top;
     margin-right: 4%;
     width: 22%;
-    height: 400px;
+    height: 450px;
     border: 5px groove gray;
+    -webkit-box-shadow: 5px 10px 8px #888888;
+            box-shadow: 5px 10px 8px #888888;
 }
 
 .project:last-child {
     margin-right: 0;
 }
 
-.projectLink {
+.projectLink, .right {
+    position: absolute;
+    bottom: 10px;
     display:inline-block;
     text-align: center;
     width: 40%;
@@ -35,15 +42,31 @@
     border-radius: 15px;
 }
 
+.right {
+    right: 0;
+}
+
 .projectLink:hover {
     background-color: #464f59;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
 .projectLink:active {
-    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+        -ms-transform: translateY(4px);
+            transform: translateY(4px);
   }
 
 h2 {
     font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.description {
+    font-size: 18px;
 }
