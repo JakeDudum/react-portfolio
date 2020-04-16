@@ -10,6 +10,9 @@ import MySQL from '../../images/MySQL.svg';
 import MongoDB from '../../images/MongoDB.png';
 import ReactLogo from '../../images/React.png';
 import Selfie from '../../images/Selfie.PNG';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import "./style.css";
 
 class AboutMe extends Component {
@@ -23,12 +26,32 @@ class AboutMe extends Component {
                     <div className="typewriter">
                         <h3>HELLO WORLD!</h3>
                     </div>
-                    <p id="bio">Welcome to my website! I am a full stack web
-                    developer proficient in both MERN and SERN full stacks. I am also proficient in HTML, CSS, and
-                    Javascript as demonstrated by my projects in the portfolio section. I love learning new technologies,
-                    new node packages, and new languages in order to better my current and future projects. I am a problem
-                    solver through and through it's why I love coding so much, I get to solve problems and in the process
-                make even more problems to solve.</p>
+                    <div id="bio">
+                        <p>Welcome to my website! I am a full stack web
+                        developer proficient in both MERN and SERN full stacks. I am also proficient in HTML, CSS, and
+                        Javascript as demonstrated by my projects in the portfolio section. I love learning new technologies,
+                        new node packages, and new languages in order to better my current and future projects. I am a problem
+                        solver through and through it's why I love coding so much, I get to solve problems and in the process
+                        make even more problems to solve.
+                        </p>
+                        <div id="links">
+                            <div className="linkContainer">
+                                <a href="https://www.google.com/">
+                                    <FontAwesomeIcon id="linkedin" icon={faLinkedin} size="3x" />
+                                </a>
+                            </div>
+                            <div className="linkContainer">
+                                <a href="https://www.google.com/">
+                                    <FontAwesomeIcon id="github" icon={faGithubSquare} size="3x" />
+                                </a>
+                            </div>
+                            <div className="linkContainer">
+                                <a href="https://www.google.com/">
+                                    <FontAwesomeIcon id="email" icon={faEnvelope} size="3x" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section id="techSkills">
                     <br></br>
