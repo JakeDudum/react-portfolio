@@ -70,3 +70,18 @@ h5 {
 .description {
     font-size: 18px;
 }
+
+@media screen and (max-width: 1500px) {
+    .project {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 40%;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .project {
+        width: 90%;
+    }
+}
