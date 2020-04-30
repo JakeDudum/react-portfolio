@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Contact from '../contact';
 import Projects from '../projects';
 import AboutMe from '../aboutMe';
+import Resume from '../../documents/Resume.pdf';
 import "./style.css";
 
 class Navbar extends Component {
@@ -26,9 +26,6 @@ class Navbar extends Component {
             case 'Projects':
                 component = <Projects />;
                 break;
-            case 'Contact':
-                component = <Contact />;
-                break;
             default:
                 component = <AboutMe />;
                 break;
@@ -44,8 +41,8 @@ class Navbar extends Component {
                     <div className="links">
                         <div onClick={(e) => this.setComponent("AboutMe", e)} className="link">About Me</div>
                         <div onClick={(e) => this.setComponent("Projects", e)} className="link">Projects</div>
-                        <div onClick={(e) => this.setComponent("Contact", e)} className="link">Contact</div>
-                        <div onClick={(e) => this.setComponent("Resume", e)} className="link">Resume</div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" className="link">Contact</a>
+                        <a href= { Resume } target="_blank" className="link">Resume</a>
                     </div>
                 </nav>
                 {this.loadComponent()}
