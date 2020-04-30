@@ -41,8 +41,8 @@ class Navbar extends Component {
                     <div className="links">
                         <div onClick={(e) => this.setComponent("AboutMe", e)} className="link">About Me</div>
                         <div onClick={(e) => this.setComponent("Projects", e)} className="link">Projects</div>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" className="link">Contact</a>
-                        <a href= { Resume } target="_blank" className="link">Resume</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" className="link">Contact</a>
+                        <a href= { Resume } target="_blank" rel="noopener noreferrer" className="link">Resume</a>
                     </div>
                 </nav>
                 {this.loadComponent()}
