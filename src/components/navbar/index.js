@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import Projects from '../projects';
 import AboutMe from '../aboutMe';
 import Resume from '../../documents/Resume.pdf';
+import Menu from '../../images/menu.png';
 import "./style.css";
 
 class Navbar extends Component {
     state = {
-        currentComponent: "AboutMe"
+        currentComponent: "AboutMe",
+        dropdownMenu: false
     };
 
     setComponent(id, e) {
@@ -33,6 +35,10 @@ class Navbar extends Component {
         return component;
     }
 
+    toggle = target => {
+        this.setState({ [target]: !this.state[target] });
+    }
+
     render() {
         return (
             <div>
@@ -42,7 +48,14 @@ class Navbar extends Component {
                         <div onClick={(e) => this.setComponent("AboutMe", e)} className="link">About Me</div>
                         <div onClick={(e) => this.setComponent("Projects", e)} className="link">Projects</div>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" className="link">Contact</a>
-                        <a href= { Resume } target="_blank" rel="noopener noreferrer" className="link">Resume</a>
+                        <a href={Resume} target="_blank" rel="noopener noreferrer" className="link">Resume</a>
+                    </div>
+                    <img className="menuIcon" src={Menu} alt="menu" onClick={() => this.toggle("dropdownMenu")} />
+                    <div id="navbar-menu" style={{ display: `${this.state.dropdownMenu ? "block" : "none"}` }}>
+                        <div onClick={(e) => this.setComponent("AboutMe", e)} className="link">About Me</div>
+                        <div onClick={(e) => this.setComponent("Projects", e)} className="link">Projects</div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" className="link">Contact</a>
+                        <a href={Resume} target="_blank" rel="noopener noreferrer" className="link">Resume</a>
                     </div>
                 </nav>
                 {this.loadComponent()}

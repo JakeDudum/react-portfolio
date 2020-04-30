@@ -32,3 +32,35 @@
 .link:hover {
     cursor: pointer;
 }
+
+.menuIcon {
+    display: none;
+    height: 50px;
+    float: right;
+}
+
+.menuIcon:hover {
+    cursor: pointer;
+}
+
+#navbar-menu {
+    z-index: 10;
+    position: relative;
+    width: 100vw;
+    max-height: 65vh;
+    padding-bottom: 15px;
+    background-color: grey;
+    border-top: 2px solid lightgray;
+    text-align: center;
+    overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        display: none;
+    }
+
+    .menuIcon {
+        display: inline;
+    }
+}
