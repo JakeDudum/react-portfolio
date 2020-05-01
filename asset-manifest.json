@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c6fa6a1e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.cefc4980.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.cefc4980.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.fcfd7c4a.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fcfd7c4a.js.map",
+    "static/js/2.f4beac00.chunk.js": "/react-portfolio/static/js/2.f4beac00.chunk.js",
+    "static/js/2.f4beac00.chunk.js.map": "/react-portfolio/static/js/2.f4beac00.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.9d64274a943a19a93f1a3496ecb2fcf2.js": "/react-portfolio/precache-manifest.9d64274a943a19a93f1a3496ecb2fcf2.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.c6fa6a1e.chunk.css.map": "/react-portfolio/static/css/main.c6fa6a1e.chunk.css.map",
+    "static/js/2.f4beac00.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f4beac00.chunk.js.LICENSE.txt",
+    "static/media/Bark.png": "/react-portfolio/static/media/Bark.95ab34b0.png",
+    "static/media/Bootstrap.png": "/react-portfolio/static/media/Bootstrap.cfecb2da.png",
+    "static/media/CSS3.png": "/react-portfolio/static/media/CSS3.c26a73b4.png",
+    "static/media/Express.png": "/react-portfolio/static/media/Express.8b3277f6.png",
+    "static/media/Javascript.png": "/react-portfolio/static/media/Javascript.afb47678.png",
+    "static/media/Jumble.png": "/react-portfolio/static/media/Jumble.597c0c40.png",
+    "static/media/Materialize.png": "/react-portfolio/static/media/Materialize.0df3ec68.png",
+    "static/media/MongoDB.png": "/react-portfolio/static/media/MongoDB.fc44a3bd.png",
+    "static/media/MySQL.svg": "/react-portfolio/static/media/MySQL.f80a91ba.svg",
+    "static/media/Node.png": "/react-portfolio/static/media/Node.521444a2.png",
+    "static/media/RPS-Multiplayer.png": "/react-portfolio/static/media/RPS-Multiplayer.a47f41f1.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.66000627.pdf",
+    "static/media/Selfie.PNG": "/react-portfolio/static/media/Selfie.f0a7b43b.PNG",
+    "static/media/Where2P.PNG": "/react-portfolio/static/media/Where2P.a32f3b63.PNG",
+    "static/media/style.css": "/react-portfolio/static/media/helloWorld.6a4cf485.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcfd7c4a.js",
+    "static/js/2.f4beac00.chunk.js",
+    "static/css/main.c6fa6a1e.chunk.css",
+    "static/js/main.cefc4980.chunk.js"
+  ]
+}
