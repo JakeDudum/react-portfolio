@@ -60,43 +60,33 @@ class AboutMe extends Component {
                     <div className="scroll-animations">
                         <div className="skill animated">
                             <img className="logo" src={HTML} alt="HTML5 Logo" />
-                            <p>HTML5</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={CSS} alt="CSS3 Logo" />
-                            <p>CSS3</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={JS} alt="Javascript Logo" />
-                            <p>Javascript</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={Bootstrap} alt="Bootstrap Logo" />
-                            <p>Bootstrap</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={Materialize} alt="Materialize Logo" />
-                            <p>Materialize</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={Node} alt="Node Logo" />
-                            <p>Node.js</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={Express} alt="Express Logo" />
-                            <p>Express</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={MySQL} alt="MySQL Logo" />
-                            <p>MySQL</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={MongoDB} alt="MongoDB Logo" />
-                            <p>MongoDB</p>
                         </div>
                         <div className="skill animated">
                             <img className="logo" src={ReactLogo} alt="React Logo" />
-                            <p>React.js</p>
                         </div>
                     </div>
                 </section>
