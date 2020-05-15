@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import HTML from '../../images/HTML5.png';
 import CSS from '../../images/CSS3.png';
 import JS from '../../images/Javascript.png';
@@ -15,84 +15,82 @@ import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import "./style.css";
 
-class AboutMe extends Component {
-    render() {
-        return (
-            <div>
-                <section id="landing">
-                    <div id="selfieBox">
-                        <img className="spinIn" id="selfie" src={Selfie} alt="A selfie of Jake Dudum" />
-                    </div>
-                    <div className="typewriter">
-                        <h3>HELLO WORLD!</h3>
-                    </div>
-                    <div id="bio">
-                        <p>Welcome to my website! I am a full stack web
-                        developer proficient in both MERN and SERN full stacks. I am also proficient in HTML, CSS, and
-                        Javascript as demonstrated by my projects in the portfolio section. I love learning new technologies,
-                        new node packages, and new languages in order to better my current and future projects. I am a problem
-                        solver through and through it's why I love coding so much, I get to solve problems and in the process
-                        make even more problems to solve.
+function AboutMe() {
+    return (
+        <div>
+            <section id="landing">
+                <div id="selfieBox">
+                    <img className="spinIn" id="selfie" src={Selfie} alt="A selfie of Jake Dudum" />
+                </div>
+                <div className="typewriter">
+                    <h3>HELLO WORLD!</h3>
+                </div>
+                <div id="bio">
+                    <p>Welcome to my website! I am a full stack web
+                    developer proficient in both MERN and SERN full stacks. I am also proficient in HTML, CSS, and
+                    Javascript as demonstrated by my projects in the portfolio section. I love learning new technologies,
+                    new node packages, and new languages in order to better my current and future projects. I am a problem
+                    solver through and through it's why I love coding so much, I get to solve problems and in the process
+                    make even more problems to solve.
                         </p>
-                        <div id="links">
-                            <div className="linkContainer">
-                                <a href="https://www.linkedin.com/in/jake-dudum-45a967185/" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon id="linkedin" icon={faLinkedin} size="3x" />
-                                </a>
-                            </div>
-                            <div className="linkContainer">
-                                <a href="https://github.com/JakeDudum" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon id="github" icon={faGithubSquare} size="3x" />
-                                </a>
-                            </div>
-                            <div className="linkContainer">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon id="email" icon={faEnvelope} size="3x" />
-                                </a>
-                            </div>
+                    <div id="links">
+                        <div className="linkContainer">
+                            <a href="https://www.linkedin.com/in/jake-dudum-45a967185/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon id="linkedin" icon={faLinkedin} size="3x" />
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <a href="https://github.com/JakeDudum" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon id="github" icon={faGithubSquare} size="3x" />
+                            </a>
+                        </div>
+                        <div className="linkContainer">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon id="email" icon={faEnvelope} size="3x" />
+                            </a>
                         </div>
                     </div>
-                </section>
-                <section id="techSkills">
-                    <br></br>
-                    <h1 className="title">Technological Skills</h1>
-                    <br></br>
-                    <div className="scroll-animations">
-                        <div className="skill animated">
-                            <img className="logo" src={HTML} alt="HTML5 Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={CSS} alt="CSS3 Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={JS} alt="Javascript Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={Bootstrap} alt="Bootstrap Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={Materialize} alt="Materialize Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={Node} alt="Node Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={Express} alt="Express Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={MySQL} alt="MySQL Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={MongoDB} alt="MongoDB Logo" />
-                        </div>
-                        <div className="skill animated">
-                            <img className="logo" src={ReactLogo} alt="React Logo" />
-                        </div>
+                </div>
+            </section>
+            <section id="techSkills">
+                <br></br>
+                <h1 className="title">Technological Skills</h1>
+                <br></br>
+                <div className="scroll-animations">
+                    <div className="skill animated">
+                        <img className="logo" src={HTML} alt="HTML5 Logo" />
                     </div>
-                </section>
-            </div>
-        )
-    }
+                    <div className="skill animated">
+                        <img className="logo" src={CSS} alt="CSS3 Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={JS} alt="Javascript Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={Bootstrap} alt="Bootstrap Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={Materialize} alt="Materialize Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={Node} alt="Node Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={Express} alt="Express Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={MySQL} alt="MySQL Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={MongoDB} alt="MongoDB Logo" />
+                    </div>
+                    <div className="skill animated">
+                        <img className="logo" src={ReactLogo} alt="React Logo" />
+                    </div>
+                </div>
+            </section>
+        </div>
+    )
 }
 
 export default AboutMe;
