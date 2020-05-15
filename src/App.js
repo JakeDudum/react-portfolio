@@ -8,8 +8,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <Navbar></Navbar>
+      <div>
+        <div className="container">
+          <Navbar></Navbar>
+        </div>
         <Footer></Footer>
       </div>
     );
