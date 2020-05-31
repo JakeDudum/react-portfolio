@@ -9,6 +9,7 @@
 }
 
 .name {
+    margin-left: 10px;
     float: left;
     font-size: 48px;
     color: white;
@@ -62,4 +63,10 @@
     .menuIcon {
         display: inline;
     }
+}
+
+@media screen and (max-width: 350px) {
+   .name {
+       font-size: 44px;
+   }
 }

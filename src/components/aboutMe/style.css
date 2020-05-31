@@ -100,10 +100,14 @@ h3 {
     background-color: grey;
     opacity: 0.85;
     width: 80%;
-    left: 12.5%;
+    left: 10%;
     font-size: 22px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.tab {
+    text-indent: 40px;
 }
 
 #links {
@@ -271,9 +275,9 @@ h3 {
     }
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1350px) {
     #landing {
-        height: 900px;
+        height: 1050px;
     }
 
     #links {
@@ -286,9 +290,15 @@ h3 {
     }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 800px) {
     #landing {
-        height: 1050px;
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #landing {
+        height: 1400px;
     }
 
     #links {
@@ -310,11 +320,35 @@ h3 {
     }
 }
 
-@media screen and (max-width: 430px) {
-    #landing {
-        height: 1200px;
+@media screen and (max-width: 450px) {
+    #bio {
+        font-size: 18px;
     }
+
+    #selfieBox {
+        top: 225px;
+        width: 300px;
+        height: 300px;
+    }
+
+    #selfie {
+        margin-left: -75px;
+    }
+
     #links {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    #selfieBox {
+        top: 200px;
+        width: 250px;
+        height: 250px;
+    }
+
+    #selfie {
+        margin-left: -105px;
     }
 }
