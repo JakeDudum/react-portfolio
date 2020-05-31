@@ -26,12 +26,13 @@ function AboutMe() {
                     <h3>HELLO WORLD!</h3>
                 </div>
                 <div id="bio">
-                    <p>Welcome to my website! I am a full stack web
-                    developer proficient in both MERN and SERN full stacks. I am also proficient in HTML, CSS, and
-                    Javascript as demonstrated by my projects in the portfolio section. I love learning new technologies,
-                    new node packages, and new languages in order to better my current and future projects. I am a problem
-                    solver through and through it's why I love coding so much, I get to solve problems and in the process
-                    make even more problems to solve.
+                    <p>Hi my name if you didn't already know is Jake Dudum. I am a full stack web developer currently working at Trilogy Education Services as a teaching
+                    assistant helping teach students from all walks of life how to code in MERN stack. Learning how to code is one thing, but teaching others to do it gives 
+                    one a whole new perspective on things and really hammers home the importance of the basics and fundamentals of coding. You also get to see a whole lot of 
+                    error screens and comile errors you may never have seen before accompanied of course with plenty of red text which you get to solve which is what I love doing, 
+                    solving problems. Admittedly it took me well over seven years to solve the problem of what I really wanted to do in life. I worked in the customer service, 
+                    food service, and delivery industries during those years and though I never hated my work I also never saw myself doing it for the rest of my life. Thankfully I 
+                    figured out that I love coding in no small part thanks to my brother, Jerry, and my friend Darryl Tolentino. 
                         </p>
                     <div id="links">
                         <div className="linkContainer">
