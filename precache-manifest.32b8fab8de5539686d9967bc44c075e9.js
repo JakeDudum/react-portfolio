@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b80c60ade20c8704aebc1577c9e9670f",
+    "revision": "7e7bf6dc1bf76ded3bc5710c8f827084",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "553eda72e3b68e636ecc",
+    "revision": "aad5eb44fdbdedd0347c",
     "url": "/react-portfolio/static/css/main.89612193.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.f4beac00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "553eda72e3b68e636ecc",
-    "url": "/react-portfolio/static/js/main.29e8bd1a.chunk.js"
+    "revision": "aad5eb44fdbdedd0347c",
+    "url": "/react-portfolio/static/js/main.b0a93cbe.chunk.js"
   },
   {
     "revision": "6c1a97d7eedcd4b749e8",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/RPS-Multiplayer.a47f41f1.png"
   },
   {
-    "revision": "cf546efeb0aa756d9b534b5c299ed055",
-    "url": "/react-portfolio/static/media/Resume.cf546efe.pdf"
+    "revision": "012b37ad73df240ac2d0881fb6b0d8ff",
+    "url": "/react-portfolio/static/media/Resume.012b37ad.pdf"
   },
   {
     "revision": "f0a7b43b126f55b34c9638c4924d80ea",
