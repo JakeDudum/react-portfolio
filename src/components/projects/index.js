@@ -12,8 +12,8 @@ function Projects() {
                 <div className="project">
                     <img className="image" src={Jumble} alt="Jumble Site" />
                     <h5>Jumble</h5>
-                    <p className="description">An app for project management that is completely user-data driven.
-                    Users can sign up for an account and then add projects by filling in a new project
+                    <p className="description">An app for project management that is user-data driven.
+                    Users can sign up for an account and add projects by filling in a new project
                     form that will ask for a project name, due date, budget for various departments, and
                     an initial task with due date.
                     </p>

@@ -31,7 +31,7 @@
     margin-top: 25px;
     margin-right: 4%;
     width: 22%;
-    height: 450px;
+    height: 460px;
     border: 5px groove gray;
 }
 
@@ -84,6 +84,10 @@ h5 {
 }
 
 @media screen and (max-width: 1500px) {
+    #project-background {
+        height: 1050px;
+    }
+
     .project {
         margin-right: 5%;
         margin-left: 5%;
@@ -92,7 +96,18 @@ h5 {
     }
 }
 
+@media screen and (max-width: 1350px) {
+    #project-background {
+        height: 1050px;
+    }
+}
+
+
 @media screen and (max-width: 850px) {
+    #project-background {
+        height: 2050px;
+    }
+
     .project {
         width: 90%;
     }
