@@ -17,13 +17,13 @@ import "./style.css";
 
 function AboutMe() {
     return (
-        <div>
+        <div id="aboutMe">
             <section id="landing">
                 <div id="selfieBox">
                     <img className="spinIn" id="selfie" src={Selfie} alt="A selfie of Jake Dudum" />
                 </div>
                 <div className="typewriter">
-                    <h3>HELLO WORLD!</h3>
+                    <h3>HELLO  WORLD!</h3>
                 </div>
                 <div id="bio">
                     <p className="tab">Hi my name if you didn't already know is Jake Dudum. I am a full stack web developer currently working at Trilogy Education Services as a teaching

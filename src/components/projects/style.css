@@ -25,7 +25,7 @@
 .project {
     position: relative;
     display: inline-block;
-    background-color: rgb(33,38,45);
+    background-color: rgb(53, 53, 53);
     line-height: 1.15;
     vertical-align: top;
     margin-top: 25px;
@@ -74,12 +74,15 @@ h2 {
     font-size: 32px;
 }
 
-h5 {
-    font-size: 24px;
+.project > h5 {
+    text-align: center;
+    font-size: 26px;
     font-weight: 100;
 }
 
 .description {
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 18px;
 }
 

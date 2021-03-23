@@ -1,7 +1,9 @@
 import React from 'react';
-import "./reset.css";
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Projects from './components/projects';
+import AboutMe from './components/aboutMe';
+import "./reset.css";
 import './App.css';
 
 class App extends React.Component {
@@ -10,9 +12,11 @@ class App extends React.Component {
     return (
       <div>
         <div className="container">
-          <Navbar></Navbar>
+          <Navbar />
+          <AboutMe />
+          <Projects />
         </div>
-        <Footer></Footer>
+        <Footer />
       </div>
     );
   }
