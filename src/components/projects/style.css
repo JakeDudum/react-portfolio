@@ -7,36 +7,87 @@
     background-attachment: fixed;
     color: white;
     width: 100%;
-    height: calc(100vh - 100px);
-    min-height: 800px;
+    height: 1750px;
+}
+
+#project-title {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 255, 0);
+}
+
+.image-container {
+    position: relative;
+    flex: 50%;
+}
+
+.image-container:hover .tech-used {
+    opacity: 1;
+}
+
+.image-container:hover .image {
+    opacity: 0.2;
+}
+
+.tech-used {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.tech {
+    background-color: grey;
+    border: solid rgb(105, 105, 105) 2px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px;
 }
 
 .image {
+    position: relative;
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+    height: 340px;
 }
 
 .center {
+    position: relative;
     width: 80%;
     margin: 0px auto;
 }
 
 .project {
-    position: relative;
-    display: inline-block;
+    display: flex;
     background-color: rgb(53, 53, 53);
     line-height: 1.15;
-    vertical-align: top;
-    margin-top: 25px;
-    margin-right: 4%;
-    width: 22%;
-    height: 460px;
+    margin: 50px auto;
+    width: 90%;
+    height: 350px;
     border: 5px groove gray;
 }
 
-.project:last-child {
-    margin-right: 0;
+.project-content {
+    position: relative;
+    flex: 50%;
+}
+
+.project-content > h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.description {
+    width: 85%;
+    margin: 10px auto;
+    font-size: 20px;
 }
 
 .projectLink, .right {
@@ -51,6 +102,7 @@
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
+    
     border-radius: 15px;
 }
 
@@ -69,49 +121,3 @@
         -ms-transform: translateY(4px);
             transform: translateY(4px);
   }
-
-h2 {
-    font-size: 32px;
-}
-
-.project > h5 {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 100;
-}
-
-.description {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 18px;
-}
-
-@media screen and (max-width: 1500px) {
-    #project-background {
-        height: 1050px;
-    }
-
-    .project {
-        margin-right: 5%;
-        margin-left: 5%;
-        width: 40%;
-        margin-bottom: 25px;
-    }
-}
-
-@media screen and (max-width: 1350px) {
-    #project-background {
-        height: 1050px;
-    }
-}
-
-
-@media screen and (max-width: 850px) {
-    #project-background {
-        height: 2050px;
-    }
-
-    .project {
-        width: 90%;
-    }
-}
