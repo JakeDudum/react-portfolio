@@ -8,7 +8,7 @@
 }
 
 #links {
-    width: 15%;
+    width: 20%;
     margin: 0px auto;
 }
 
@@ -36,4 +36,16 @@
     color: #EE4838;
     background-position: left;
     background-size: 100% 60%;
+}
+
+@media screen and (max-width: 900px) {
+    #links {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #links {
+        width: 70%;
+    }
 }
