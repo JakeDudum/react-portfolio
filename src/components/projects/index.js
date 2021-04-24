@@ -27,6 +27,7 @@ function Projects() {
                         </div>
                         <div className="project-content">
                             <h5>Jumble</h5>
+                            <hr />
                             <p className="description">An app for project management that is user-data driven.
                             Users can sign up for an account and add projects by filling in a new project
                             form that will ask for a project name, due date, budget for various departments, and
@@ -52,6 +53,7 @@ function Projects() {
                         </div>
                         <div className="project-content">
                             <h5>Bark</h5>
+                            <hr />
                             <p className="description">An app inspired by Yik-Yak. Users can sign up for account and voice
                             whatever they want to those in their city. The site features a basic user profile to
                         view old posts and a few simple categories along with a like counter.</p>
@@ -74,6 +76,7 @@ function Projects() {
                         </div>
                         <div className="project-content">
                             <h5>Where2P</h5>
+                            <hr />
                             <p className="description">An app designed to help people find a bathroom quick.
                             The app uses multiple API's including Google Maps API, Yelp API, and
                             Google Places API in order to help the user find the closest
@@ -97,6 +100,7 @@ function Projects() {
                         </div>
                         <div className="project-content">
                             <h5>RPS-Multiplayer</h5>
+                            <hr />
                             <p className="description">An online multiplayer version of Rock-Paper-Scissors. Only two
                             players can play at any given time and only those two players can use the chat
                         functionality of the site. Player 1 always goes first followed by Player 2.</p>
