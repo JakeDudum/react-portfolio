@@ -17,8 +17,7 @@
     margin: 0 auto;
 }
 
-
-.scroll-animations div {
+.scroll-animations .skill {
     opacity: 0;
 }
 
@@ -56,7 +55,6 @@
                 transform: translate3d(0, 0, 0);
     }
 }
-
 
 @media screen and (max-width: 1350px) {
     .logo {
