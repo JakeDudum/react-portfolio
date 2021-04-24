@@ -112,25 +112,6 @@
     font-size: 36px;
 }
 
-#techSkills {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.skill {
-    display: inline-block;
-    width: 20%;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.logo {
-    display: block;
-    width: 50%;
-    height: 150px;
-    margin: 0 auto;
-}
-
 /* SpinIn animation taken from Vivify CSS Animation Library
     Link: http://vivify.mkcreative.cz/ */
 
@@ -195,57 +176,9 @@
     }
 }
 
-.scroll-animations div {
-    opacity: 0;
-}
-
-.fadeInLeft {
-    -webkit-animation-name: fadeInLeft;
-            animation-name: fadeInLeft;
-    -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-}
-
-@-webkit-keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-                transform: translate3d(-100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-    }
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-                transform: translate3d(-100%, 0, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-    }
-}
-
 @media screen and (max-width: 1350px) {
     #landing {
         height: 1050px;
-    }
-
-    #links {
-        width: 45%;
-    }
-
-    .logo {
-        width: 75%;
-        height: 125px;
     }
 }
 
@@ -258,24 +191,6 @@
 @media screen and (max-width: 650px) {
     #landing {
         height: 1400px;
-    }
-
-    #links {
-        width: 70%;
-    }
-
-    .logo {
-        height: 100px;
-    }
-
-    .skill {
-        width: 33%;
-    }
-
-    .skill:last-child {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
@@ -292,10 +207,6 @@
 
     #selfie {
         margin-left: -75px;
-    }
-
-    #links {
-        width: 80%;
     }
 }
 

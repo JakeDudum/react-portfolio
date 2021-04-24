@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import Footer from './components/footer';
-import Projects from './components/projects';
 import AboutMe from './components/aboutMe';
+import Technologies from './components/technologies';
+import Projects from './components/projects';
+import Footer from './components/footer';
 import "./reset.css";
 import './App.css';
 
@@ -14,6 +15,7 @@ class App extends React.Component {
         <div className="container">
           <Navbar />
           <AboutMe />
+          <Technologies />
           <Projects />
         </div>
         <Footer />
