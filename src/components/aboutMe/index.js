@@ -10,9 +10,6 @@ import MySQL from '../../images/MySQL.svg';
 import MongoDB from '../../images/MongoDB.png';
 import ReactLogo from '../../images/React.png';
 import Selfie from '../../images/Selfie.PNG';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import "./style.css";
 
 function AboutMe() {
@@ -38,23 +35,6 @@ function AboutMe() {
                     figured out that I love coding in no small part thanks to my brother, Jerry, and my friend Darryl. On a much lighter note I enjoy playing video games in
                     my free time on my custom built gaming PC and am an achievement hunter/completionist.
                     </p>
-                    <div id="links">
-                        <div className="linkContainer">
-                            <a href="https://www.linkedin.com/in/jake-dudum-45a967185/" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon id="linkedin" icon={faLinkedin} size="3x" />
-                            </a>
-                        </div>
-                        <div className="linkContainer">
-                            <a href="https://github.com/JakeDudum" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon id="github" icon={faGithubSquare} size="3x" />
-                            </a>
-                        </div>
-                        <div className="linkContainer">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon id="email" icon={faEnvelope} size="3x" />
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </section>
             <section id="techSkills">

@@ -1,8 +1,39 @@
-footer {
-    height: 50px;
+#footer {
+    height: 85px;
     background-color: grey;
     text-align: center;
     font-size: 18px;
     color: white;
-    padding-top: 25px;
+    padding: 5px 0px;
+}
+
+#links {
+    width: 15%;
+    margin: 0px auto;
+}
+
+.linkContainer {
+    display: inline-block;
+    width: 33.3%;
+}
+
+#linkedin, #github, #email {
+    background-image: url(../../images/WhiteSquare.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+
+#linkedin {
+    color: #0A66C2;
+}
+
+#github {
+    color: #1A1E22;
+}
+
+#email {
+    color: #EE4838;
+    background-position: left;
+    background-size: 100% 60%;
 }
