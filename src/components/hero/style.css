@@ -1,4 +1,9 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 #landing {
     background-image: url(../../images/helloWorld.jpg);
@@ -11,25 +16,7 @@
     min-height: 900px;
 }
 
-#about {
-    width: 75%;
-    margin: 175px auto;
-}
-
-#heading, #sub-heading {
-    color: white;
-    text-align: center;
-}
-
-#heading {
-    font-size: 120px;
-    margin-bottom: 20px;
-}
-
-#sub-heading {
-    margin-top: 15px;
-    font-size: 48px;
-}
+/***************************************** Typewriter CSS and Animation *****************************************/
 
 #typewriter {
     color: lime;
@@ -43,7 +30,17 @@
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
+    -webkit-animation: typewriter 3s steps(12) 1s 1 normal both, blinkTextCursor 700ms steps(12) infinite normal;
     animation: typewriter 3s steps(12) 1s 1 normal both, blinkTextCursor 700ms steps(12) infinite normal;
+}
+
+@-webkit-keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 6.7em;
+    }
 }
 
 @keyframes typewriter {
@@ -55,6 +52,15 @@
     }
 }
 
+@-webkit-keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
 @keyframes blinkTextCursor {
     from {
         border-right-color: rgba(255, 255, 255, .75);
@@ -63,6 +69,76 @@
         border-right-color: transparent;
     }
 }
+
+/***************************************** Landing Content *****************************************/
+
+#about {
+    width: 75%;
+    margin: 175px auto;
+}
+
+#heading, #sub-heading {
+    text-align: center;
+}
+
+#heading {
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+#sub-heading {
+    margin-top: 15px;
+    font-size: 48px;
+}
+
+#scrollDown {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.6;
+    -webkit-animation: bounce 1s linear infinite normal both;
+    animation: bounce 1s linear infinite normal both;
+}
+
+@-webkit-keyframes bounce {
+    20%, 50%, 80%, to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-12px);
+        transform: translateY(-12px);
+    }
+    70% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    90% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes bounce {
+    20%, 50%, 80%, to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-12px);
+        transform: translateY(-12px);
+    }
+    70% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    90% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+}
+
+/***************************************** Landing Links *****************************************/
 
 #links {
     width: 25%;
@@ -100,6 +176,8 @@
     background-position: left;
     background-size: 100% 60%;
 }
+
+/***************************************** Media Query CSS *****************************************/
 
 @media screen and (max-width: 1200px) {
     #links {

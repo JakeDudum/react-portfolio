@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .navbar {
     position: relative;
     background-color: #171A1D;
@@ -16,8 +23,9 @@
 .link {
     display: inline-block;
     text-decoration: none;
-    text-emphasis: none;
     color: white;
+    -webkit-text-emphasis: none;
+    text-emphasis: none;
     font-size: 24px;
     margin-top: 13px;
     margin-right: 15px;

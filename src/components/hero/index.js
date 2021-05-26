@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 import "./style.css";
 
 function Hero() {
@@ -24,11 +24,12 @@ function Hero() {
                         </a>
                     </div>
                     <div className="linkContainer">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvWF8egOrjyWmH-t21TmTB32taW6Y7NSMRj4r79DYWd0-tJw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:jakedudum@gmail.com" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon id="email" icon={faEnvelope} size="3x" />
                         </a>
                     </div>
                 </div>
+                <div id="scrollDown"><FontAwesomeIcon icon={faAngleDoubleDown} size="1x" /> Scroll Down to see projects <FontAwesomeIcon icon={faAngleDoubleDown} size="1x" /></div>
             </div>
         </section>
     )

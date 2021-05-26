@@ -6,6 +6,7 @@ html {
     font-family: 'Odibee Sans', cursive;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: white;
 }
 
 * {
