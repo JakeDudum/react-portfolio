@@ -1,4 +1,9 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 #project-background {
     background-image: url(../../images/projects.jpg);
@@ -7,21 +12,28 @@
     background-attachment: fixed;
     color: white;
     width: 100%;
-    height: 100vh;
-    min-height: 1750px;
+    padding-bottom: 20px;
 }
 
 #project-title {
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
     font-weight: bold;
-    padding-top: 20px;
-    color: rgb(0, 255, 0);
+    padding-top: 30px;
+    color: white;
 }
 
 .scroll-animations .project {
     opacity: 0;
 }
+
+.center {
+    position: relative;
+    width: 80%;
+    margin: 0px auto;
+}
+
+/******************************** Left Scroll Animation ********************************/
 
 .animateLeft {
     -webkit-animation-name: animateLeft;
@@ -58,6 +70,8 @@
     }
 }
 
+/******************************** Right Scroll Animation ********************************/
+
 .animateRight {
     -webkit-animation-name: animateRight;
     animation-name: animateRight;
@@ -93,8 +107,12 @@
     }
 }
 
+/******************************** Project Image CSS ********************************/
+
 .image-container {
     position: relative;
+    -webkit-box-flex: 50%;
+    -ms-flex: 50%;
     flex: 50%;
 }
 
@@ -108,13 +126,18 @@
 
 .tech-used {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 75%;
     margin: 0;
     top: 50%;
     left: 50%;
     z-index: 100;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     opacity: 0;
 }
@@ -133,13 +156,9 @@
     height: 340px;
 }
 
-.center {
-    position: relative;
-    width: 80%;
-    margin: 0px auto;
-}
-
 .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: rgb(53, 53, 53);
     line-height: 1.15;
@@ -149,23 +168,29 @@
     border: 5px groove gray;
 }
 
+/******************************** Project Text CSS ********************************/
+
 .project-content {
     position: relative;
+    -webkit-box-flex: 50%;
+    -ms-flex: 50%;
     flex: 50%;
 }
 
 .project-content>h5 {
-    margin: 25px 0px;
+    margin: 15px 0px;
     text-align: center;
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 100;
 }
 
 .description {
     width: 85%;
     margin: 10px auto;
-    font-size: 18px;
+    font-size: 25px;
 }
+
+/******************************** Project Links CSS ********************************/
 
 .projectLink, .right {
     position: absolute;
@@ -180,6 +205,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 15px;
+    font-size: 20px;
 }
 
 .right {
@@ -198,68 +224,79 @@
     transform: translateY(4px);
 }
 
-@media screen and (max-width: 800px) {
+/******************************** Media Query CSS ********************************/
+
+@media screen and (max-width: 1200px) {
+    #project-title {
+        font-size: 75px;
+    }
     .project-content>h5 {
-        margin: 15px 0px;
-        font-size: 28px;
+        margin: 10px 0px;
+        font-size: 44px;
     }
-
     .description {
-        font-size: 16px;
+        font-size: 22px;
     }
-
     .tech-used {
         width: 90%;
     }
-    
-    .tech {
-        font-size: 16px;
-        padding: 5px 10px;
-        margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .project-content>h5 {
+        font-size: 40px;
+    }
+    .description {
+        font-size: 20px;
+    }
+    .center {
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 650px) {
+    #project-title {
+        font-size: 60px;
+    }
     #project-background {
         background-size: 150vw 100vh;
     }
-
     .project {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
-
     .image-container {
+        -webkit-box-flex: 80%;
+        -ms-flex: 80%;
         flex: 80%;
     }
-
-    .project-content  {
+    .project-content {
+        -webkit-box-flex: 120%;
+        -ms-flex: 120%;
         flex: 120%;
     }
-
     .project-content>h5 {
         margin: 5px 0px;
-        font-size: 20px;
+        font-size: 30px;
     }
-
     .image {
         height: 150px;
     }
-
     .description {
-        font-size: 14px;
+        font-size: 16px;
         margin: 5px auto;
     }
-
     .project {
         width: 100%;
     }
-
     .projectLink, .right {
         bottom: 5px;
         padding-top: 5px;
         padding-bottom: 5px;
+        font-size: 15px;
     }
-
     .tech {
         margin: 5px;
         font-size: 12px;
@@ -268,9 +305,8 @@
 
 @media screen and (max-width: 400px) {
     .description {
-        font-size: 12.5px;
+        font-size: 14px;
     }
-
     .projectLink, .right {
         font-size: 14px;
     }

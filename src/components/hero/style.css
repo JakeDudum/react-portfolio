@@ -8,64 +8,131 @@
     width: 100%;
     height: 100vh;
     margin-top: -50px;
+    min-height: 900px;
 }
 
-.typewriter {
-    width: 295px;
+#about {
+    width: 75%;
+    margin: 175px auto;
+}
+
+#heading, #sub-heading {
+    color: white;
+    text-align: center;
+}
+
+#heading {
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+#sub-heading {
+    margin-top: 15px;
+    font-size: 48px;
+}
+
+#typewriter {
+    color: lime;
+    font-family: 'Anonymous Pro', monospace;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-}
-
-.typewriter h3 {
+    position: relative;
+    top: 120px;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 350%;
     text-align: center;
-    color: rgb(0, 255, 0);
-    font-size: 40px;
-    overflow: hidden;
-    border-right: .15em solid rgb(0, 255, 0);
     white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(12) 1s 1 normal both, blinkTextCursor 700ms steps(12) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 6.7em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+#links {
+    width: 25%;
+    margin: 3% auto;
+}
+
+.linkContainer {
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+}
+
+.iconLink {
+    width: 25px;
     margin: 0 auto;
-    letter-spacing: 2px;
-    -webkit-animation: typing 3s steps(17, end), blink-caret .75s step-end infinite;
-    animation: typing 3s steps(17, end), blink-caret .75s step-end infinite;
 }
 
-/* The typing effect */
-
-@-webkit-keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
+#linkedin, #github, #email {
+    background-image: url(../../images/WhiteSquare.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
+#linkedin {
+    color: #0A66C2;
 }
 
-/* The typewriter cursor effect */
+#github {
+    color: #1A1E22;
+}
 
-@-webkit-keyframes blink-caret {
-    from, to {
-        border-color: transparent
-    }
-    50% {
-        border-color: rgb(0, 255, 0);
+#email {
+    color: #EE4838;
+    background-position: left;
+    background-size: 100% 60%;
+}
+
+@media screen and (max-width: 1200px) {
+    #links {
+        width: 40%;
     }
 }
 
-@keyframes blink-caret {
-    from, to {
-        border-color: transparent
+@media screen and (max-width: 900px) {
+    #links {
+        width: 60%;
     }
-    50% {
-        border-color: rgb(0, 255, 0);
+}
+
+@media screen and (max-width: 700px) {
+    #heading {
+        font-size: 60px;
+    }
+    #sub-heading {
+        font-size: 24px;
+    }
+    #typewriter {
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #heading {
+        font-size: 50px;
+    }
+    #sub-heading {
+        font-size: 20px;
+    }
+    #links {
+        width: 80%;
     }
 }
