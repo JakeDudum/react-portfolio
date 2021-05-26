@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import AboutMe from './components/aboutMe';
-import Technologies from './components/technologies';
+import Hero from './components/hero';
 import Projects from './components/projects';
 import Footer from './components/footer';
 import "./reset.css";
@@ -14,8 +13,7 @@ class App extends React.Component {
       <div>
         <div className="container">
           <Navbar />
-          <AboutMe />
-          <Technologies />
+          <Hero />
           <Projects />
         </div>
         <Footer />

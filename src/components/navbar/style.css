@@ -1,6 +1,6 @@
 .navbar {
     position: relative;
-    background-color: grey;
+    background-color: #22262A;
     position: fixed;
     top: 0;
     width: 100%;
@@ -59,14 +59,13 @@
     .links {
         display: none;
     }
-
     .menuIcon {
         display: inline;
     }
 }
 
 @media screen and (max-width: 350px) {
-   .name {
-       font-size: 44px;
-   }
+    .name {
+        font-size: 44px;
+    }
 }
