@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ba1d5c6c.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.8a98bd57.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.8a98bd57.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.5280f05a.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.5eb58f65.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.5eb58f65.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fcfd7c4a.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fcfd7c4a.js.map",
-    "static/js/2.e4aef0a6.chunk.js": "/react-portfolio/static/js/2.e4aef0a6.chunk.js",
-    "static/js/2.e4aef0a6.chunk.js.map": "/react-portfolio/static/js/2.e4aef0a6.chunk.js.map",
+    "static/js/2.adc373c1.chunk.js": "/react-portfolio/static/js/2.adc373c1.chunk.js",
+    "static/js/2.adc373c1.chunk.js.map": "/react-portfolio/static/js/2.adc373c1.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.e5f5d00a1730ee9f08665e8d014f122f.js": "/react-portfolio/precache-manifest.e5f5d00a1730ee9f08665e8d014f122f.js",
+    "precache-manifest.2d705ebca21ac9d765d3c3e0604ada31.js": "/react-portfolio/precache-manifest.2d705ebca21ac9d765d3c3e0604ada31.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.ba1d5c6c.chunk.css.map": "/react-portfolio/static/css/main.ba1d5c6c.chunk.css.map",
-    "static/js/2.e4aef0a6.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e4aef0a6.chunk.js.LICENSE.txt",
+    "static/css/main.5280f05a.chunk.css.map": "/react-portfolio/static/css/main.5280f05a.chunk.css.map",
+    "static/js/2.adc373c1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.adc373c1.chunk.js.LICENSE.txt",
     "static/media/Bark.png": "/react-portfolio/static/media/Bark.95ab34b0.png",
+    "static/media/CMS.png": "/react-portfolio/static/media/CMS.d68e4ae0.png",
     "static/media/Jumble.png": "/react-portfolio/static/media/Jumble.597c0c40.png",
     "static/media/RPS-Multiplayer.png": "/react-portfolio/static/media/RPS-Multiplayer.a47f41f1.png",
     "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.9e2ee124.pdf",
+    "static/media/WIP-logo.png": "/react-portfolio/static/media/WIP-logo.3a501854.png",
     "static/media/Where2P.PNG": "/react-portfolio/static/media/Where2P.a32f3b63.PNG",
     "static/media/style.css": "/react-portfolio/static/media/projects.295cd439.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fcfd7c4a.js",
-    "static/js/2.e4aef0a6.chunk.js",
-    "static/css/main.ba1d5c6c.chunk.css",
-    "static/js/main.8a98bd57.chunk.js"
+    "static/js/2.adc373c1.chunk.js",
+    "static/css/main.5280f05a.chunk.css",
+    "static/js/main.5eb58f65.chunk.js"
   ]
 }
