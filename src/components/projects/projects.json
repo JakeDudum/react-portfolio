@@ -1,0 +1,70 @@
+[
+    {
+        "title": "PHP CMS",
+        "description": "A content management system (CMS) built from a Udemy course. Users can view posts, like them, and comment as well as create new posts and categories. Admin approval is required for posts and comments in order to be visibile.",
+        "github": "https://github.com/JakeDudum/Udemy-PHP-CMS",
+        "deployed": "https://frozen-waters-48792.herokuapp.com/",
+        "image": "CMS",
+        "alt": "PHP CMS",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Bootstrap",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Jumble",
+        "description": "An app for project management that is user-data driven. Users can sign up for an account and add projects by filling in a new project form that will ask for a project name, due date, budget for various departments, and an initial task with due date.",
+        "github": "https://github.com/JakeDudum/jumble-dash",
+        "deployed": "https://jumbledash-72562938076f.herokuapp.com/",
+        "image": "Jumble",
+        "alt": "Jumble Site",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "MySQL",
+            "Node",
+            "Express"
+        ]
+    },
+    {
+        "title": "Bark",
+        "description": "An app inspired by Yik-Yak. Users can sign up for account and voice whatever they want to those in their city. The site features a basic user profile to view old posts and a few simple categories along with a like counter.",
+        "github": "https://github.com/JakeDudum/Bark",
+        "deployed": "https://tranquil-bastion-82369.herokuapp.com/",
+        "image": "Bark",
+        "alt": "Bark Site",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "MySQL",
+            "Node",
+            "Express",
+            "Passport"
+        ]
+    },
+    {
+        "title": "Where2P",
+        "description": "An app designed to help people find a bathroom quick. The app uses multiple API's including Google Maps API, Yelp API, and Google Places API in order to help the user find the closest bathroom available and features user reviews as well.",
+        "github": "https://github.com/JakeDudum/Where2p",
+        "deployed": "https://jakedudum.github.io/Where2p/",
+        "image": "Where2P",
+        "alt": "Where2P Site",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Materialize",
+            "Firebase"
+        ]
+    }
+]

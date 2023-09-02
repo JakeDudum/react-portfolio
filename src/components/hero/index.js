@@ -14,7 +14,7 @@ function Hero() {
                 <div id="sub-heading">Check out my work below or shoot me over an email to get in touch.</div>
                 <div id="links">
                     <div className="linkContainer">
-                        <a href="https://www.linkedin.com/in/jakedudum" class="iconLink" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/jakedudum" className="iconLink" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon id="linkedin" icon={faLinkedin} size="3x" />
                         </a>
                     </div>
