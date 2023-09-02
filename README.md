@@ -11,7 +11,6 @@ My latest and greatest portfolio built with React for all of my best work. Conta
 - [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Jquery](https://jquery.com/)
 - [React](https://reactjs.org/)
 
 # Versioning
